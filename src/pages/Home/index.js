@@ -1,13 +1,12 @@
 import React from 'react';
 // import '../../App.css';
-import Credentials from '../../Service/service';
+import Report1 from '../../Service/service';
 import { models } from 'powerbi-client';
 import { PowerBIEmbed } from 'powerbi-client-react';
 
 
 function Home() {
-  const { workspaceID, reportID, applicationID, applicationSecret, accessToken, displayName, embedUrl } = Credentials;
-  console.log('HOmePage');
+  const { reportID, accessToken, displayName, embedUrl } = Report1;
   return (
     <div style={{width:"100%"}}>
       {/* <h1>Home Page</h1> */}

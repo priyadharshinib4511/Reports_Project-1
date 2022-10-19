@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import * as XLSX from "xlsx";
 import './styles.css';
 import usersData from '../../utie/usersData.json';
 
@@ -24,7 +23,6 @@ function SignInpage() {
     //     //     if (sheets.length) {
     //     //         const rows = XLSX.utils.sheet_to_json(wb.Sheets[sheets[0]]);
     //     //         // setMovies(rows)
-    //     //     console.log("fileData--->", rows)
 
     //     //     }
     //     // }
@@ -38,7 +36,6 @@ function SignInpage() {
 
     //     // if (sheets.length) {
     //     //     const rows = XLSX.utils.sheet_to_json(workbook.Sheets[sheets[0]]);
-    //     //     console.log("fileData--->", rows, reader)
 
     //     // }
     // }
